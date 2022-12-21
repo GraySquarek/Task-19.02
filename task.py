@@ -138,4 +138,7 @@ for i in range(len(data)):
             res[i] = 0
             if res[j] == -1:
                 res[j] = 1
-print(res)
+
+#print(res)
+for spisokSV in res:
+    print(spisokSV)
